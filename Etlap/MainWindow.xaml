@@ -36,7 +36,7 @@
 
 		
 		<StackPanel Grid.Row="1" Orientation="Horizontal">
-			<Label Content="Áremelés:" FontSize="20" VerticalAlignment="Center"/>
+			<Label Content="Áremelés(Ft):" FontSize="20" VerticalAlignment="Center"/>
 			<TextBox Name="arInput" Text="" VerticalAlignment="Center" FontSize="20" Width="150" PreviewTextInput="arInput_PreviewTextInput"/>
 			<Button x:Name="btnFix" Content="Növelés" VerticalAlignment="Center" Margin="10,0,0,0" FontSize="20" Width="90" Click="btnFix_Click"/>
 			<Label Content="Áremelés(%):" FontSize="20" VerticalAlignment="Center" Margin="20,0,0,0"/>
